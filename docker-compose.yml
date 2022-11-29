@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webappvuejs:
+     hostname: webappvuejs
+     build: .
+     ports:
+       - "80:80"
